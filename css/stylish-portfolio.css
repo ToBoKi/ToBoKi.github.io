@@ -181,21 +181,22 @@ hr.small {
     margin-bottom: 30px;
 }
 
-/* Portfolio */
+/* Fun and Games */
 
-.portfolio {
+.games {
     padding: 50px 0;
+    background-color: #fcd804;
 }
 
-.portfolio-item {
+.games-item {
     margin-bottom: 30px;
 }
 
-.img-portfolio {
+.img-games {
     margin: 0 auto;
 }
 
-.img-portfolio:hover {
+.img-games:hover {
     opacity: 0.8;
 }
 
