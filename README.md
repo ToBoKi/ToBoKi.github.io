@@ -10,6 +10,8 @@ Like curious children of all ages, ToBoKi and his friends always come up with cr
 
 # Acknowledgements
 
-The html/css/js is based on [IronSummitMedia's](https://github.com/IronSummitMedia/) [Stylish Portfolio](https://github.com/IronSummitMedia/startbootstrap-stylish-portfolio) and [Clean Blog](IronSummitMedia/startbootstrap-clean-blog) templates.
+* The html/css/js is based on [IronSummitMedia's](https://github.com/IronSummitMedia/) [Stylish Portfolio](https://github.com/IronSummitMedia/startbootstrap-stylish-portfolio) and [Clean Blog](IronSummitMedia/startbootstrap-clean-blog) templates.
+
+* Thanks to [@karlbunyan](https://github.com/karlbunyan/) for the [Bubble Shoot Game](games/bubble_shoot)
 
 
