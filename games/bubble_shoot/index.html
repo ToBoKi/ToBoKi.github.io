@@ -3,31 +3,31 @@
 <head>
 	<meta charset="utf8">
 	<title>ToBoKi's Bubble Shooter Game</title>
-	<link href="./_css/main.css" rel="stylesheet">
-	<link href="./_css/game.css" rel="stylesheet" />
-	<script src="./_js/modernizr.js"></script>
+	<link href="https://raw.githubusercontent.com/ToBoKi/ToBoKi.github.io/master/games/bubble_shoot/_css/main.css" rel="stylesheet">
+	<link href="https://raw.githubusercontent.com/ToBoKi/ToBoKi.github.io/master/games/bubble_shoot/_css/game.css" rel="stylesheet" />
+	<script src="https://raw.githubusercontent.com/ToBoKi/ToBoKi.github.io/master/games/bubble_shoot/_js/modernizr.js"></script>
 	<script>
 		Modernizr.load([
 			{
 				load: "//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.js",
 				complete: function () {
 					if(!window.jQuery){
-						Modernizr.load("./_js/jquery-1.11.2.min.js");
+						Modernizr.load("https://raw.githubusercontent.com/ToBoKi/ToBoKi.github.io/master/games/bubble_shoot/_js/jquery-1.11.2.min.js");
 					}
 				}
 			},
-			"./_js/ui.js",
-			"./_js/bubble.js",
-			"./_js/board.js",
-			"./_js/collision-detector.js",
-			"./_js/jquery.kaboom.js",
-			"./_js/sounds.js",
+			"https://raw.githubusercontent.com/ToBoKi/ToBoKi.github.io/master/games/bubble_shoot/_js/ui.js",
+			"https://raw.githubusercontent.com/ToBoKi/ToBoKi.github.io/master/games/bubble_shoot/_js/bubble.js",
+			"https://raw.githubusercontent.com/ToBoKi/ToBoKi.github.io/master/games/bubble_shoot/_js/board.js",
+			"https://raw.githubusercontent.com/ToBoKi/ToBoKi.github.io/master/games/bubble_shoot/_js/collision-detector.js",
+			"https://raw.githubusercontent.com/ToBoKi/ToBoKi.github.io/master/games/bubble_shoot/_js/jquery.kaboom.js",
+			"https://raw.githubusercontent.com/ToBoKi/ToBoKi.github.io/master/games/bubble_shoot/_js/sounds.js",
 			{
 				test: Modernizr.canvas,
-				yep: ["./_js/renderer.js","_js/sprite.js"]
+				yep: ["https://raw.githubusercontent.com/ToBoKi/ToBoKi.github.io/master/games/bubble_shoot/_js/renderer.js","https://raw.githubusercontent.com/ToBoKi/ToBoKi.github.io/master/games/bubble_shoot/_js/sprite.js"]
 			},
 			{
-			load : "./_js/game.js",
+			load : "https://raw.githubusercontent.com/ToBoKi/ToBoKi.github.io/master/games/bubble_shoot/_js/game.js",
 			complete: function(){
 				$(function(){
 					var game = new BubbleShoot.Game();
