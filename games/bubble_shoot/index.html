@@ -3,31 +3,31 @@
 <head>
 	<meta charset="utf8">
 	<title>ToBoKi's Bubble Shooter Game</title>
-	<link href="./games/bubble_shoot/_css/main.css" rel="stylesheet">
-	<link href="./games/bubble_shoot/_css/game.css" rel="stylesheet" />
-	<script src="./games/bubble_shoot/_js/modernizr.js"></script>
+	<link href="main.css" rel="stylesheet">
+	<link href="game.css" rel="stylesheet" />
+	<script src="modernizr.js"></script>
 	<script>
 		Modernizr.load([
 			{
 				load: "//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.js",
 				complete: function () {
 					if(!window.jQuery){
-						Modernizr.load("./games/bubble_shoot/_js/jquery-1.11.2.min.js");
+						Modernizr.load("jquery-1.11.2.min.js");
 					}
 				}
 			},
-			"./games/bubble_shoot/_js/ui.js",
-			"./games/bubble_shoot/_js/bubble.js",
-			"./games/bubble_shoot/_js/board.js",
-			"./games/bubble_shoot/_js/collision-detector.js",
-			"./games/bubble_shoot/_js/jquery.kaboom.js",
-			"./games/bubble_shoot/_js/sounds.js",
+			"ui.js",
+			"bubble.js",
+			"board.js",
+			"collision-detector.js",
+			"jquery.kaboom.js",
+			"sounds.js",
 			{
 				test: Modernizr.canvas,
-				yep: ["./games/bubble_shoot/_js/renderer.js","./games/bubble_shoot/_js/sprite.js"]
+				yep: ["renderer.js","sprite.js"]
 			},
 			{
-			load : "./games/bubble_shoot/_js/game.js",
+			load : "game.js",
 			complete: function(){
 				$(function(){
 					var game = new BubbleShoot.Game();
