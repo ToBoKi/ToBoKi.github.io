@@ -121,7 +121,7 @@ BubbleShoot.Game = (function($){
 					setTimeout(function(){
 						bubble.setState(BubbleShoot.BubbleState.POPPED);
 					},200);
-					BubbleShoot.Sounds.play("https://raw.githubusercontent.com/ToBoKi/ToBoKi.github.io/master/games/bubble_shoot/_mp3/pop.mp3",Math.random()*.5 + .5);
+					BubbleShoot.Sounds.play("_mp3/pop.mp3",Math.random()*.5 + .5);
 				},delay);
 				board.popBubbleAt(this.getRow(),this.getCol());
 				setTimeout(function(){
