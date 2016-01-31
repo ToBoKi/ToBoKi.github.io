@@ -181,6 +181,24 @@ hr.small {
     margin-bottom: 30px;
 }
 
+/* Shop */
+
+.shop {
+    padding: 50px 0;
+}
+
+.shop-item {
+    margin-bottom: 30px;
+}
+
+.img-shop {
+    margin: 0 auto;
+}
+
+.img-shop:hover {
+    opacity: 0.8;
+}
+
 /* Fun and Games */
 
 .games {
